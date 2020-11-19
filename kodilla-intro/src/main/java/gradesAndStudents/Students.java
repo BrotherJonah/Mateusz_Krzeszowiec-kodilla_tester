@@ -1,3 +1,7 @@
+package gradesAndStudents;
+
+import gradesAndStudents.Grades;
+
 public class Students {
     public static void main(String[] args) {
         Grades studentA = new Grades();
@@ -9,9 +13,11 @@ public class Students {
         studentA.add(5);
         studentA.add(8);
         studentA.add(10);
-        studentA.add(9);
-        studentA.add(9);
+        studentA.add(11);
 
-        System.out.println("Oceny studenta A: " + studentA.grades[9]);
+
+
+//        System.out.println("Ostatnia ocena studenta A: " + studentA.returnLastValue());   // nie działa
+        System.out.println("Srednia ocen studenta A: " + studentA.avgTableValue());
     }
 }
