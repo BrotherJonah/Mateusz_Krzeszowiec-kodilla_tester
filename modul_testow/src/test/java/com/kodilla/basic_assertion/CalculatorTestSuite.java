@@ -25,16 +25,27 @@ public class CalculatorTestSuite {
     }
 
     @Test
-    public void testToSquare() {
+    public void testToSquareNegativeNumber() {
         Calculator calculator = new Calculator();
         int a = -3;
-        int b = 2;
-        int c = 0;
+
         int toSquareResultA = calculator.toSquare(a);
         assertEquals(9, toSquareResultA);
+    }
+
+    @Test
+    public void testToSquarePossitiveNumber() {
+        Calculator calculator = new Calculator();
+        int b = 2;
 
         int toSquareResultB = calculator.toSquare(b);
         assertEquals(4, toSquareResultB);
+    }
+
+    @Test
+    public void testToSquareWithNumberZero() {
+        Calculator calculator = new Calculator();
+        int c = 0;
 
         int toSquareResultC = calculator.toSquare(c);
         assertEquals(0, toSquareResultC);
