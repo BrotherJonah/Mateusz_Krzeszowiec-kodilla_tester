@@ -10,7 +10,7 @@ public class CarUtils {
         System.out.println("-----------------------------");
         System.out.println("Car name: " + getCarName(car)); //pobieram nazwę auta abstrakcyjnego obiektu car
         System.out.println("Car speed: " + car.getSpeed());
-//        System.out.println("Increase car speed: " + car.increaseSpeed()); //dlaczego nie mogę tego wyświetlić?
+//        System.out.println("Increase car speed: " + car.increaseSpeedBy(20)); //dlaczego nie mogę tego wyświetlić?
 //        System.out.println("Decrease car speed: " + car.decreaseSpeed());
 //        System.out.println("Actual car speed: " + car.getSpeed());
     }

@@ -26,4 +26,10 @@ public class Opel implements Car {
             System.out.println("Prędkość auta maleje: " + speed + " km/h");
         }
     }
+
+    @Override
+    public void increaseSpeedBy(int value) {
+        this.speed += value;
+        return;
+    }
 }

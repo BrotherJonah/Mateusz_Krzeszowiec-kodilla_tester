@@ -8,4 +8,5 @@ public interface Car {
 
     void decreaseSpeed();
 
+    void increaseSpeedBy(int value);
 }

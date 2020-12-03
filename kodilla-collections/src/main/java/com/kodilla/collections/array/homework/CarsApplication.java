@@ -24,7 +24,7 @@ public class CarsApplication {
         int drawnCarKind = random.nextInt(3);
         int drawnValueOfIncreaseSpeed = random.nextInt(100) ;
         if (drawnCarKind == 0)
-            return new Volvo(); //return new Volvo() + Volvo.increaseSpeed(drawnValueOfIncreaseSpeed);
+            return new Volvo(); //+ Volvo.increaseSpeedBy(drawnValueOfIncreaseSpeed);
         else if (drawnCarKind == 1)
             return new Opel();
         else
