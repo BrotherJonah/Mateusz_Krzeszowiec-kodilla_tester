@@ -1,0 +1,4 @@
+4.2 Zadanie: losowanie wartości i iterowanie po tablicy
+	-Nie potrafię odwołać się do metody klasy Volvo aby tam podać argument o który prędkość ma być zwiększona poprzez metodę drawCar klasy CarsApplication; w zadaniu jestem proszony oto by metoda drawCar zwiększała prędkośc pojazdu o wylosowaną wartość.
+Link do plików:
+https://github.com/BrotherJonah/Mateusz_Krzeszowiec-kodilla_tester/commit/3493f79922c9235347d1a08911e223382f9cb892
